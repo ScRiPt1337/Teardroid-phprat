@@ -1,0 +1,110 @@
+body {
+  background: #000;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  font-family: 'Anton', sans-serif;
+  justify-content: center;
+  align-items: center;
+  perspective: 500px;
+}
+
+.camera_x {
+  // animation: rotateX 5000ms linear infinite;
+}
+
+.camera_y {
+  // animation: rotateY 4000ms linear infinite;
+}
+
+.triangle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotate 60000ms linear infinite;
+  
+  &_outer {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    // background: #333;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      width: 40%;
+      height: 100%;
+      background: #ccc;
+      animation: slide 1500ms linear infinite;
+      // filter: blur(20px);
+    }
+  }
+
+  &_inner {
+    width: 240px;
+    height: 240px;
+    background: #000;
+    transform: translateY(2px);
+    
+    &::before {
+      // content: '';
+      position: absolute;
+      width: 20%;
+      height: 100%;
+      background: #ccc;
+      animation: slide 1500ms -118ms linear infinite;
+      // filter: blur(10px) contrast(5);
+    }
+  }
+  
+  .clip {
+    clip-path: polygon(
+      0 100%,
+      100% 100%,
+      50% 0,
+    );
+  }
+}
+
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(-150px);
+  }
+  
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotateX {
+  0% {
+    transform: rotateX(0deg);
+  }
+  
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+@keyframes rotateY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  
+  100% {
+    transform: rotateY(360deg);
+  }
+}

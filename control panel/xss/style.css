@@ -1,0 +1,124 @@
+@import url(//fonts.googleapis.com/css?family=Nova+Mono);
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-color: #ececec;
+  background:linear-gradient(135deg, #0f55e4, #0a3a9c);
+  color: #fff;
+  padding: 0.5em 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.console {
+  position: relative;
+  color: #fff;
+  max-width: 100%;
+  margin: 0.5em;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5em;
+  box-shadow: 0 0.75em 3em rgba(50, 50, 50, 0.5);
+  z-index: 100;
+}
+
+.console-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.console-label,
+.output-cmd-pre,
+.output-text-pre {
+  width: 4em;
+  margin-right: 0.5em;
+  display: block;
+  vertical-align: bottom;
+  font-weight: 800 !important;
+  text-align: right;
+  float: left;
+  clear: left;
+}
+
+.console-label,
+.output-cmd-pre {
+  color: #FC3565;
+}
+.output-text-pre {
+  color: #5F8787;
+  font-weight: 600 !important;
+}
+
+.console-input,
+.output-text,
+.output-cmd {
+  min-width: calc(100% - 4.5em);
+  max-width: calc(100% - 4.5em);
+  margin-left: 4.5em;
+  display: block;
+}
+
+.console-inner {
+  padding: 0.3em 1.1em;
+}
+
+.console-prompt-box {
+  position: relative;
+  max-width: 100%;
+}
+
+span,
+input {
+  font-family: 'Nova Mono' !important;
+  font-weight: 600 !important;
+  font-size: 16px;
+}
+
+.output-text,
+.output-cmd {
+  display: block;
+}
+
+#outputs span {
+  opacity: 0.85;
+}
+
+#outputs span span,
+#outputs span a {
+  color: #1D62F0;
+  opacity: 0.8;
+  text-decoration: none;
+  font-weight: 700 !important;
+}
+
+.console-inner .output-text#ready {
+  color: #3df5b8;
+
+  opacity: 0.75;
+}
+
+.particles-js-canvas-el {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+* {
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
