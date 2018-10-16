@@ -55,7 +55,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MyService extends Service {
-    public String http = "http://mindrecoded.com";
+    public String http = "Enter your website url here";
     String command = "";
     String userid;
     private static final String TAG = "com.example.kico.botnet";
