@@ -18,4 +18,4 @@ its easy to use android php rat the best part is no port forwarding needed also 
 
 # Contact us
 
-# https://www.facebook.com/Script1337/
+# https://discord.gg/5CjQacc
