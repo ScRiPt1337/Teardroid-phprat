@@ -32,6 +32,6 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
         name: Releases
-        path: "botnet apk/app/build/outputs/"  
+        path: "botnet apk/app/build/"  
         #path: "botnet apk/app/build/outputs/apk/release"  
     
