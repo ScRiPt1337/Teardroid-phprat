@@ -26,7 +26,7 @@ jobs:
       run: chmod +x "botnet apk/gradlew"
 
     - name: Build with Gradle
-      run: cd "botnet apk" && gradle assemble --scan 
+      run: cd "botnet apk" && gradlew assembleRelease 
       #run: ./"botnet apk/gradlew" assemble
 
     - name: Upload Artifact
