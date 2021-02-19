@@ -23,4 +23,4 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x "botnet apk/gradlew"
     - name: Build with Gradle
-      run: ./botnet apk/gradlew build
+      run: ./"botnet apk/gradlew" build
