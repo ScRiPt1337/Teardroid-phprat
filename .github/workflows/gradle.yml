@@ -24,9 +24,12 @@ jobs:
 
     - name: Grant execute permission for gradlew
       run: chmod +x "botnet apk/gradlew"
+      
+    - name: Build with Gradle
+      run: ./"botnet apk/gradlew" tasks
 
     - name: Build with Gradle
-      run: ./"botnet apk/gradlew" assemble
+      run: ./"botnet apk/gradlew" build
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v1.0.0
