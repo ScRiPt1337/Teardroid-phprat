@@ -26,9 +26,6 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x "botnet apk/gradlew"
       
-    - name: Become admin
-      run: sudo su
-      
     - name: Build with Gradle
       run: ./"botnet apk/gradlew" build 
       #run: ./"botnet apk/gradlew" assemble
