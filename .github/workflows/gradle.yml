@@ -12,7 +12,7 @@ jobs:
         run: sudo su && cd "botnet apk" && chmod +x gradlew && bash ./gradlew assembleDebug --stacktrace
         
       - name: WHERE AM I
-        run:  echo $PWD
+        run:  echo $PWD && ls && cd .. && ls
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
