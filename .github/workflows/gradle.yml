@@ -4,7 +4,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    
       - name: Checkout the code
         uses: actions/checkout@v2
+        
       - name: Build the app
-        run: sudo su && cd "botnet apk" && chmod +x gradlew && ./gradlew build    
+        run: sudo su && cd "botnet apk" && chmod +x gradlew && bash ./gradlew assembleDebug --stacktrace
+        
+      - name: Upload APK
+        uses: actions/upload-artifact@v1
+        with:
+          name: app
+          path: app/build/outputs/apk/debug/app-debug.apk
