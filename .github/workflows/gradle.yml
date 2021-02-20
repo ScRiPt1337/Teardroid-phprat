@@ -11,11 +11,9 @@ jobs:
       - name: Build the app
         run: sudo su && cd "botnet apk" && chmod +x gradlew && bash ./gradlew assembleDebug --stacktrace
         
-      - name: WHERE AM I
-        run:  echo $PWD && dir && cd "botnet apk" 
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
           name: app
-          path: "botnet apk"
+          path: "botnet apk/app/build/outputs/apk/debug/app-debug.apk"
           #path: app/build/outputs/apk/debug/app-debug.apk
