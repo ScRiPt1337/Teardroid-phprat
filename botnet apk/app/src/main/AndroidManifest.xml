@@ -66,7 +66,7 @@
             </intent-filter>
         </service>
 
-        <receiver
+<!--        <receiver
             android:name=".DeviceAdminDemo"
             android:permission="android.permission.BIND_DEVICE_ADMIN" >
             <meta-data
@@ -79,7 +79,7 @@
                 <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
                 <action android:name="android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED" />
             </intent-filter>
-        </receiver>
+        </receiver>-->
 
         <service android:name=".TService" >
         </service>
