@@ -1,0 +1,324 @@
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ FrameworkConfig ] setAppPath appPath == /storage/emulated/0/MiVideoGlobal
+2021-02-12 14:07:30	DEBUG	ThemeUtils	[ createPackageContext ] isTheme= false   mThemeId= com.miui.video.theme.01
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ OVDatabase-Setting ] cacheToMemory
+2021-02-12 14:07:30	DEBUG	DBUtils	[ DBUtils ] getDatabaseName= online.db
+2021-02-12 14:07:30	DEBUG	OVDatabase	[ query ] getCount=0	com.miui.video.framework.db.TableEntity@5dcc5c2
+tableName=ov_setting_table
+
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ init ] ==========Device Info==========
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ androidSDK ] 27
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneBoard ] QC_Reference_Phone
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneBrand ] Xiaomi
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneCPU_ABT ] armeabi-v7a
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneDevice ] riva
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneDisplay ] CUSTOMER_VERSION_riva
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneFingerprint ] Xiaomi/riva/riva:8.1.0/OPM1.171019.026/V11.0.2.0.OCKMIXM:user/release-keys
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneHost ] mi-server
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneID ] OPM1.171019.026
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneManufacturer ] Xiaomi
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneModel ] Redmi 5A
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneVersion ] 8.1.0
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneProduct ] riva
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneTags ] release-keys
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneTime ] Tue Nov 05 21:50:03 GMT+05:30 2019
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneType ] user
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ phoneUser ] builder
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ screenDensity ] 2.0
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ screenScaledDensity ] 2.0
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ screenWidthPixels ] 720
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ wcreenHeightPixels ] 1280
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ screenStatusBarHeight ] 50
+2021-02-12 14:07:30	DEBUG	DeviceUtils	[ init ] ===============================
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ AppConfig ] initAppChannel success channel = miui
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ AppConfig ] initAppChannel success platform = miui
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ VideoMediationConfig ] init
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ VideoMediationConfig ] init end  ENABLE_LOG = trueIS_LOCAL_CONFIG = false ; Staging = false ;  is test = false
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ Plugin-PackageInstaller ] init
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ VideoJobScheduler ]  canceUpdateWork!
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ VideoJobScheduler ] periodic worker enqueue!
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.global.GlobalApplication@fe6462f
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.global.GlobalApplication@fe6462f
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.READ_PHONE_STATE; Context = com.miui.video.global.GlobalApplication@fe6462f
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.READ_PHONE_STATE ret = true
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ SyncSettingHelper ] lastTimeStamp = 0, ignoreSyncSettingTimes = 0
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.global.GlobalApplication@fe6462f
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.global.GlobalApplication@fe6462f
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.READ_PHONE_STATE; Context = com.miui.video.global.GlobalApplication@fe6462f
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.READ_PHONE_STATE ret = true
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ HttpIntercepter ] --->>> GET https://video.in.intl.xiaomi.com/api/g1/meta/setting?_sdevid=c408f9a4904085fd9798914f67f2bf9185d4e6ef6eb329c683b42f0a6e5e680b&_miui=V11&_miuiver=V11.0.2.0.OCKMIXM&_andver=27&_model=Redmi%205A&_device=riva&_locale=en_IN&_region=IN&_appver=2018103190&_ismiui=1&_anoyid=a931861f-bb16-43ff-916d-5371d0833c94&_res=hd720&_nonce=229638362&_ts=1613119050&_ver=2018103190(MiVideo-GROM)&_devtype=1&_cam=0f607264fc6318a92b9e13c65db7cd3c&_diordna=d2a8cfd0c243246882d6d6dbc60d6917&_version=stable&_plyver=20180726&_nettype=4&_uspace=0&_eset=&_app_coop_md5=0645726b2543e19f772d6a2a72aab1db http/1.1
+ Request Body is null
+
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ HttpIntercepter ] --->>> GET https://video.in.intl.xiaomi.com/api/g1/ad_config?_sdevid=c408f9a4904085fd9798914f67f2bf9185d4e6ef6eb329c683b42f0a6e5e680b&_miui=V11&_miuiver=V11.0.2.0.OCKMIXM&_andver=27&_model=Redmi%205A&_device=riva&_locale=en_IN&_region=IN&_appver=2018103190&_ismiui=1&_anoyid=a931861f-bb16-43ff-916d-5371d0833c94&_res=hd720&_nonce=213094159&_ts=1613119050&_ver=2018103190(MiVideo-GROM)&_devtype=1&_cam=0f607264fc6318a92b9e13c65db7cd3c&_diordna=d2a8cfd0c243246882d6d6dbc60d6917&_version=stable&_plyver=20180726&_nettype=4&_uspace=0&_eset=&_app_coop_md5=0645726b2543e19f772d6a2a72aab1db http/1.1
+ Request Body is null
+
+2021-02-12 14:07:30	DEBUG	DataUtils	[ addUI ] ui= com.miui.video.localvideoplayer.LocalPlayerActivity@808ca30
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackDev : map = {"page_name":"LocalPlayerActivity","type":"page_view"}
+2021-02-12 14:07:30	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V11","_ver":"2018103190(MiVideo-GROM)","_anoyid":"a931861f-bb16-43ff-916d-5371d0833c94","_region":"IN","type":"page_view","_res":"hd720","_device":"riva","_miuiver":"V11.0.2.0.OCKMIXM","_appver":"2018103190","page_name":"LocalPlayerActivity","_nettype":"4","_andver":"27","_model":"Redmi 5A","_plyver":"20180726","_ismiui":"1","_locale":"en_IN","_ts":"1613119050"}
+2021-02-12 14:07:30	ERROR	com.miui.videoplayer	[ PushMessageReceiver ] onCommandResult register_success setIMEIAlias  mRegId ==  2KyIcRY7sJhg7e2/64J+UhmdHKB8ADowGCS11KgdImLlG6PiludP8mgmzUgZZLWl
+
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ HttpIntercepter ] --->>> GET https://video.in.intl.xiaomi.com/api/g1/localplay/diversion?ref=&is_from_gallery=false&_sdevid=c408f9a4904085fd9798914f67f2bf9185d4e6ef6eb329c683b42f0a6e5e680b&_miui=V11&_miuiver=V11.0.2.0.OCKMIXM&_andver=27&_model=Redmi%205A&_device=riva&_locale=en_IN&_region=IN&_appver=2018103190&_ismiui=1&_anoyid=a931861f-bb16-43ff-916d-5371d0833c94&_res=hd720&_nonce=378920935&_ts=1613119051&_ver=2018103190(MiVideo-GROM)&_devtype=1&_cam=0f607264fc6318a92b9e13c65db7cd3c&_diordna=d2a8cfd0c243246882d6d6dbc60d6917&_version=stable&_plyver=20180726&_nettype=4&_uspace=0&_eset=&_app_coop_md5=0645726b2543e19f772d6a2a72aab1db http/1.1
+ Request Body is null
+
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.localvideoplayer.LocalPlayerActivity@808ca30
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.localvideoplayer.LocalPlayerActivity@808ca30
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.READ_PHONE_STATE; Context = com.miui.video.localvideoplayer.LocalPlayerActivity@808ca30
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.READ_PHONE_STATE ret = true
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.localvideoplayer.LocalPlayerActivity@808ca30
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.localvideoplayer.LocalPlayerActivity@808ca30
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.READ_PHONE_STATE; Context = com.miui.video.localvideoplayer.LocalPlayerActivity@808ca30
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.READ_PHONE_STATE ret = true
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ openLink ] link=mv://SyncSetting  scheme=mv  host=SyncSetting  path=  params=[]   ref=com.miui.videoplayer
+2021-02-12 14:07:31	DEBUG	StatisticsUtils	[ addStatistics ] STATISTICS_ACTION= ACTION_CLICK  obj= 	com.miui.video.common.entity.LinkEntity@1eba58b
+Uri=mv://SyncSetting
+getScheme=mv
+getHost=SyncSetting
+getPath=
+getQuery=null
+getQueryParameterNames=[]
+ref=null
+
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ SyncSettingHelper ] lastTimeStamp = 0, ignoreSyncSettingTimes = 0
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ MiDevLogger ] click: CLICK{ target=mv://SyncSetting, additions=[]}, FROM:com.miui.videoplayer , PATH[]
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ LogMivideo ] CLICK{ target=mv://SyncSetting, additions=[]}
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ LogMivideo ] report click event
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V11","_ver":"2018103190(MiVideo-GROM)","_anoyid":"a931861f-bb16-43ff-916d-5371d0833c94","_region":"IN","type":"click","_res":"hd720","_device":"riva","target":"mv://SyncSetting","_miuiver":"V11.0.2.0.OCKMIXM","at":"1613119051260","_appver":"2018103190","_nettype":"4","_andver":"27","_model":"Redmi 5A","_plyver":"20180726","_ismiui":"1","_locale":"en_IN","_ts":"1613119051"}
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ HttpIntercepter ] --->>> GET https://video.in.intl.xiaomi.com/api/g1/meta/setting?_sdevid=c408f9a4904085fd9798914f67f2bf9185d4e6ef6eb329c683b42f0a6e5e680b&_miui=V11&_miuiver=V11.0.2.0.OCKMIXM&_andver=27&_model=Redmi%205A&_device=riva&_locale=en_IN&_region=IN&_appver=2018103190&_ismiui=1&_anoyid=a931861f-bb16-43ff-916d-5371d0833c94&_res=hd720&_nonce=53423365&_ts=1613119051&_ver=2018103190(MiVideo-GROM)&_devtype=1&_cam=0f607264fc6318a92b9e13c65db7cd3c&_diordna=d2a8cfd0c243246882d6d6dbc60d6917&_version=stable&_plyver=20180726&_nettype=4&_uspace=0&_eset=&_app_coop_md5=0645726b2543e19f772d6a2a72aab1db http/1.1
+ Request Body is null
+
+2021-02-12 14:07:31	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ ThreadPoolManager ] initThreadPool index　0
+2021-02-12 14:07:31	ERROR	com.miui.videoplayer	[ VideoViewPresenter ] onActivityResume  isInMultiWindow:false
+
+2021-02-12 14:07:31	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to : play_action:activity_resume_start
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] onVideoResume
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ MiAudioManager ] startListenCallState
+2021-02-12 14:07:31	INFO	com.miui.videoplayer	[ Plugin-CPInfoConfig ] Starting load cp config data
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ HttpIntercepter ] --->>> GET https://video.in.intl.xiaomi.com/api/g1/meta/cp?_sdevid=c408f9a4904085fd9798914f67f2bf9185d4e6ef6eb329c683b42f0a6e5e680b&_miui=V11&_miuiver=V11.0.2.0.OCKMIXM&_andver=27&_model=Redmi%205A&_device=riva&_locale=en_IN&_region=IN&_appver=2018103190&_ismiui=1&_anoyid=a931861f-bb16-43ff-916d-5371d0833c94&_res=hd720&_nonce=168463286&_ts=1613119051&_ver=2018103190(MiVideo-GROM)&_devtype=1&_cam=0f607264fc6318a92b9e13c65db7cd3c&_diordna=d2a8cfd0c243246882d6d6dbc60d6917&_version=stable&_plyver=20180726&_nettype=4&_uspace=0&_eset=&_app_coop_md5=0645726b2543e19f772d6a2a72aab1db http/1.1
+ Request Body is null
+
+2021-02-12 14:07:31	INFO	com.miui.videoplayer	[ Plugin-PluginConfig ] Starting load cp config data
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ AdConfigUtils ] getAdConfigFail
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ HttpIntercepter ] --->>> GET https://video.in.intl.xiaomi.com/api/g1/meta/plugin?_sdevid=c408f9a4904085fd9798914f67f2bf9185d4e6ef6eb329c683b42f0a6e5e680b&_miui=V11&_miuiver=V11.0.2.0.OCKMIXM&_andver=27&_model=Redmi%205A&_device=riva&_locale=en_IN&_region=IN&_appver=2018103190&_ismiui=1&_anoyid=a931861f-bb16-43ff-916d-5371d0833c94&_res=hd720&_nonce=1436980410&_ts=1613119051&_ver=2018103190(MiVideo-GROM)&_devtype=1&_cam=0f607264fc6318a92b9e13c65db7cd3c&_diordna=d2a8cfd0c243246882d6d6dbc60d6917&_version=stable&_plyver=20180726&_nettype=4&_uspace=0&_eset=&_app_coop_md5=0645726b2543e19f772d6a2a72aab1db http/1.1
+ Request Body is null
+
+2021-02-12 14:07:31	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] callStateChanged state = 0
+2021-02-12 14:07:32	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to : play_action:play_start
+2021-02-12 14:07:32	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] type = play__start_succ videoType = local, map: {duration=6, ref=File Manager, at=1613119052306, type=play__start_succ, played_all=1, video_type=local}
+2021-02-12 14:07:32	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V11","_ver":"2018103190(MiVideo-GROM)","_anoyid":"a931861f-bb16-43ff-916d-5371d0833c94","_region":"IN","type":"play__start_succ","_res":"hd720","_device":"riva","video_type":"local","duration":"6","_miuiver":"V11.0.2.0.OCKMIXM","ref":"File Manager","at":"1613119052306","_appver":"2018103190","_nettype":"4","_andver":"27","_model":"Redmi 5A","_plyver":"20180726","_ismiui":"1","played_all":"1","_locale":"en_IN","_ts":"1613119052"}
+2021-02-12 14:07:32	ERROR	com.miui.videoplayer	[ Plugin-CPInfoConfig ] syncServer() failed.
+
+2021-02-12 14:07:32	ERROR	com.miui.videoplayer	[ Plugin-PluginConfig ] syncServer() failed.
+
+2021-02-12 14:07:32	DEBUG	DBUtils	[ DBUtils ] getDatabaseName= mivideo.db
+2021-02-12 14:07:32	DEBUG	CLVDatabase	[ query ] getCount=0	com.miui.video.framework.db.TableEntity@532070
+tableName=history
+whereClause=md5_path =?
+whereArgs=0a38c585ff60a48f80f759a842c38bdd
+orderBy=updateTime DESC
+
+2021-02-12 14:07:32	DEBUG	CLVDatabase	[ query ] getCount=0	com.miui.video.framework.db.TableEntity@de71fe9
+tableName=history
+whereClause=md5_path =?
+whereArgs=0a38c585ff60a48f80f759a842c38bdd
+orderBy=updateTime DESC
+
+2021-02-12 14:07:32	DEBUG	CLVDatabase	[ insertOrUpdate ] id=26	com.miui.video.framework.db.TableEntity@33fb97a
+tableName=history
+whereClause=path='content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4'
+values=currentSubtitlePath:-1
+values=currentAudioTrack:0
+values=md5_path:0a38c585ff60a48f80f759a842c38bdd
+values=updateTime:1613119052777
+values=onlineSubHash:null
+values=extraSubtitlePath:null
+values=title:%2B918930260506_1348022.mp4
+values=playProgress:0
+values=imgUrl:null
+values=duration:0
+values=path:content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4
+values=extraSubtitleOffset:[{"path":"-1","timeOffset":0}]
+values=size:0
+values=onlineSubLocalPath:null
+
+2021-02-12 14:07:32	DEBUG	com.miui.videoplayer	[ HistorySPHelper ] SPHistoryEntry{path='content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4', offset=0, saveTime=1613119052841}
+2021-02-12 14:07:34	DEBUG	com.miui.videoplayer	[ FullLayout ] NavPositionOnRight
+2021-02-12 14:07:37	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] VideoViewPresenter#pause
+2021-02-12 14:07:37	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@4eadf20
+tableName=history
+whereClause=md5_path =?
+whereArgs=0a38c585ff60a48f80f759a842c38bdd
+orderBy=updateTime DESC
+
+2021-02-12 14:07:37	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2021-02-12 14:07:37	DEBUG	DBUtils	[ moveToNext ] size=1	VideoEntity[baseId=0]
+uri=null
+mediaId=0
+hideId=-1
+id=26
+title=%2B918930260506_1348022.mp4
+imgUrl=
+path=content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4
+size=0.00B
+updateTime=2021年02月12日 14时07分32秒
+
+2021-02-12 14:07:37	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to : play_action:activity_paused_pause
+2021-02-12 14:07:37	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] onVideoPause
+2021-02-12 14:07:37	DEBUG	com.miui.videoplayer	[ MiAudioManager ] stopListenCallState
+2021-02-12 14:07:37	DEBUG	CLVDatabase	[ insertOrUpdate ] id=26	com.miui.video.framework.db.TableEntity@4aada9e
+tableName=history
+whereClause=path='content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4'
+values=currentSubtitlePath:-1
+values=currentAudioTrack:0
+values=md5_path:0a38c585ff60a48f80f759a842c38bdd
+values=updateTime:1613119057407
+values=onlineSubHash:
+values=extraSubtitlePath:
+values=title:+918930260506_1348022.mp4
+values=playProgress:5068
+values=imgUrl:content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4
+values=duration:6380
+values=path:content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4
+values=extraSubtitleOffset:[{"path":"-1","timeOffset":0}]
+values=size:0
+values=onlineSubLocalPath:
+values=_id:26
+
+2021-02-12 14:07:37	DEBUG	com.miui.videoplayer	[ HistorySPHelper ] SPHistoryEntry{path='content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4', offset=5068, saveTime=1613119057424}
+2021-02-12 14:07:37	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@7d779e4
+tableName=history
+whereClause=md5_path =?
+whereArgs=0a38c585ff60a48f80f759a842c38bdd
+orderBy=updateTime DESC
+
+2021-02-12 14:07:37	DEBUG	DBUtils	[ moveToNext ] size=1	VideoEntity[baseId=0]
+uri=null
+mediaId=0
+hideId=-1
+id=26
+title=+918930260506_1348022.mp4
+imgUrl=content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4
+path=content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4
+size=0.00B
+duration=05:30:06
+playProgress=05:30:05
+updateTime=2021年02月12日 14时07分37秒
+
+2021-02-12 14:07:38	DEBUG	DataUtils	[ removeUI ] ui= com.miui.video.localvideoplayer.LocalPlayerActivity@808ca30
+2021-02-12 14:07:38	DEBUG	CLVDatabase	[ insertOrUpdate ] id=26	com.miui.video.framework.db.TableEntity@83a8e4d
+tableName=history
+whereClause=path='content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4'
+values=currentSubtitlePath:-1
+values=currentAudioTrack:0
+values=md5_path:0a38c585ff60a48f80f759a842c38bdd
+values=updateTime:1613119057993
+values=onlineSubHash:
+values=extraSubtitlePath:
+values=title:+918930260506_1348022.mp4
+values=playProgress:5068
+values=imgUrl:content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4
+values=duration:6380
+values=path:content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4
+values=extraSubtitleOffset:[{"path":"-1","timeOffset":0}]
+values=size:0
+values=onlineSubLocalPath:
+values=_id:26
+
+2021-02-12 14:07:38	DEBUG	com.miui.videoplayer	[ HistorySPHelper ] SPHistoryEntry{path='content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_1348022.mp4', offset=5068, saveTime=1613119058048}
+2021-02-12 14:07:38	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] type = play__close videoType = local, map: {duration=6, ref=File Manager, at=1613119058069, type=play__close, played_all=6, video_type=local}
+2021-02-12 14:07:38	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V11","_ver":"2018103190(MiVideo-GROM)","_anoyid":"a931861f-bb16-43ff-916d-5371d0833c94","_region":"IN","type":"play__close","_res":"hd720","_device":"riva","video_type":"local","duration":"6","_miuiver":"V11.0.2.0.OCKMIXM","ref":"File Manager","at":"1613119058069","_appver":"2018103190","_nettype":"4","_andver":"27","_model":"Redmi 5A","_plyver":"20180726","_ismiui":"1","played_all":"6","_locale":"en_IN","_ts":"1613119058"}
+2021-02-12 14:07:38	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to : play_action:videoview_released
+2021-02-12 14:07:46	DEBUG	DataUtils	[ addUI ] ui= com.miui.video.localvideoplayer.LocalPlayerActivity@a9bb06f
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackDev : map = {"page_name":"LocalPlayerActivity","type":"page_view"}
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V11","_ver":"2018103190(MiVideo-GROM)","_anoyid":"a931861f-bb16-43ff-916d-5371d0833c94","_region":"IN","type":"page_view","_res":"hd720","_device":"riva","_miuiver":"V11.0.2.0.OCKMIXM","_appver":"2018103190","page_name":"LocalPlayerActivity","_nettype":"4","_andver":"27","_model":"Redmi 5A","_plyver":"20180726","_ismiui":"1","_locale":"en_IN","_ts":"1613119066"}
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.localvideoplayer.LocalPlayerActivity@a9bb06f
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.localvideoplayer.LocalPlayerActivity@a9bb06f
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.READ_PHONE_STATE; Context = com.miui.video.localvideoplayer.LocalPlayerActivity@a9bb06f
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.READ_PHONE_STATE ret = true
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.localvideoplayer.LocalPlayerActivity@a9bb06f
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.localvideoplayer.LocalPlayerActivity@a9bb06f
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.READ_PHONE_STATE; Context = com.miui.video.localvideoplayer.LocalPlayerActivity@a9bb06f
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ HttpIntercepter ] --->>> GET https://video.in.intl.xiaomi.com/api/g1/localplay/diversion?ref=&is_from_gallery=false&_sdevid=c408f9a4904085fd9798914f67f2bf9185d4e6ef6eb329c683b42f0a6e5e680b&_miui=V11&_miuiver=V11.0.2.0.OCKMIXM&_andver=27&_model=Redmi%205A&_device=riva&_locale=en_IN&_region=IN&_appver=2018103190&_ismiui=1&_anoyid=a931861f-bb16-43ff-916d-5371d0833c94&_res=hd720&_nonce=-1504024858&_ts=1613119066&_ver=2018103190(MiVideo-GROM)&_devtype=1&_cam=0f607264fc6318a92b9e13c65db7cd3c&_diordna=d2a8cfd0c243246882d6d6dbc60d6917&_version=stable&_plyver=20180726&_nettype=4&_uspace=0&_eset=&_app_coop_md5=0645726b2543e19f772d6a2a72aab1db http/1.1
+ Request Body is null
+
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.READ_PHONE_STATE ret = true
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ openLink ] link=mv://SyncSetting  scheme=mv  host=SyncSetting  path=  params=[]   ref=com.miui.videoplayer
+2021-02-12 14:07:46	DEBUG	StatisticsUtils	[ addStatistics ] STATISTICS_ACTION= ACTION_CLICK  obj= 	com.miui.video.common.entity.LinkEntity@cf944b
+Uri=mv://SyncSetting
+getScheme=mv
+getHost=SyncSetting
+getPath=
+getQuery=null
+getQueryParameterNames=[]
+ref=null
+
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ SyncSettingHelper ] lastTimeStamp = 0, ignoreSyncSettingTimes = 0
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ MiDevLogger ] click: CLICK{ target=mv://SyncSetting, additions=[]}, FROM:com.miui.videoplayer , PATH[]
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ LogMivideo ] CLICK{ target=mv://SyncSetting, additions=[]}
+2021-02-12 14:07:46	DEBUG	com.miui.videoplayer	[ LogMivideo ] report click event
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V11","_ver":"2018103190(MiVideo-GROM)","_anoyid":"a931861f-bb16-43ff-916d-5371d0833c94","_region":"IN","type":"click","_res":"hd720","_device":"riva","target":"mv://SyncSetting","_miuiver":"V11.0.2.0.OCKMIXM","at":"1613119066995","_appver":"2018103190","_nettype":"4","_andver":"27","_model":"Redmi 5A","_plyver":"20180726","_ismiui":"1","_locale":"en_IN","_ts":"1613119067"}
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ HttpIntercepter ] --->>> GET https://video.in.intl.xiaomi.com/api/g1/meta/setting?_sdevid=c408f9a4904085fd9798914f67f2bf9185d4e6ef6eb329c683b42f0a6e5e680b&_miui=V11&_miuiver=V11.0.2.0.OCKMIXM&_andver=27&_model=Redmi%205A&_device=riva&_locale=en_IN&_region=IN&_appver=2018103190&_ismiui=1&_anoyid=a931861f-bb16-43ff-916d-5371d0833c94&_res=hd720&_nonce=-1414378364&_ts=1613119067&_ver=2018103190(MiVideo-GROM)&_devtype=1&_cam=0f607264fc6318a92b9e13c65db7cd3c&_diordna=d2a8cfd0c243246882d6d6dbc60d6917&_version=stable&_plyver=20180726&_nettype=4&_uspace=0&_eset=&_app_coop_md5=0645726b2543e19f772d6a2a72aab1db http/1.1
+ Request Body is null
+
+2021-02-12 14:07:47	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2021-02-12 14:07:47	ERROR	com.miui.videoplayer	[ VideoViewPresenter ] onActivityResume  isInMultiWindow:false
+
+2021-02-12 14:07:47	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to : play_action:activity_resume_start
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] onVideoResume
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ MiAudioManager ] startListenCallState
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] callStateChanged state = 0
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to : play_action:play_start
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] type = play__start_succ videoType = local, map: {duration=1115, ref=File Manager, at=1613119067280, type=play__start_succ, played_all=0, video_type=local}
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V11","_ver":"2018103190(MiVideo-GROM)","_anoyid":"a931861f-bb16-43ff-916d-5371d0833c94","_region":"IN","type":"play__start_succ","_res":"hd720","_device":"riva","video_type":"local","duration":"1115","_miuiver":"V11.0.2.0.OCKMIXM","ref":"File Manager","at":"1613119067280","_appver":"2018103190","_nettype":"4","_andver":"27","_model":"Redmi 5A","_plyver":"20180726","_ismiui":"1","played_all":"0","_locale":"en_IN","_ts":"1613119067"}
+2021-02-12 14:07:47	DEBUG	CLVDatabase	[ query ] getCount=0	com.miui.video.framework.db.TableEntity@eb121b3
+tableName=history
+whereClause=md5_path =?
+whereArgs=b3fc2d1fa3c9a5030b0415704fc00ebe
+orderBy=updateTime DESC
+
+2021-02-12 14:07:47	DEBUG	CLVDatabase	[ query ] getCount=0	com.miui.video.framework.db.TableEntity@847b8d2
+tableName=history
+whereClause=md5_path =?
+whereArgs=b3fc2d1fa3c9a5030b0415704fc00ebe
+orderBy=updateTime DESC
+
+2021-02-12 14:07:47	DEBUG	CLVDatabase	[ insertOrUpdate ] id=27	com.miui.video.framework.db.TableEntity@545dda3
+tableName=history
+whereClause=path='content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_134838463.mp4'
+values=currentSubtitlePath:-1
+values=currentAudioTrack:0
+values=md5_path:b3fc2d1fa3c9a5030b0415704fc00ebe
+values=updateTime:1613119067449
+values=onlineSubHash:null
+values=extraSubtitlePath:null
+values=title:%2B918930260506_134838463.mp4
+values=playProgress:0
+values=imgUrl:null
+values=duration:0
+values=path:content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_134838463.mp4
+values=extraSubtitleOffset:[{"path":"-1","timeOffset":0}]
+values=size:0
+values=onlineSubLocalPath:null
+
+2021-02-12 14:07:47	DEBUG	com.miui.videoplayer	[ HistorySPHelper ] SPHistoryEntry{path='content://com.mi.android.globalFileexplorer.myprovider/external_files/Teardroid/%2B918930260506_134838463.mp4', offset=0, saveTime=1613119067461}
+2021-02-12 14:07:54	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] VideoViewPresenter#pause
+2021-02-12 14:07:54	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@9e75e1b
+tableName=history
+whereClause=md5_path =?
+whereArgs=b3fc2d1fa3c9a5030b0415704fc00ebe
+orderBy=updateTime DESC
+
+2021-02-12 14:07:54	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+

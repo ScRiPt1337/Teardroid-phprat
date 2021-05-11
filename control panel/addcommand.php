@@ -1,6 +1,11 @@
 <?php
 	include_once 'sql.php';
-
+session_start();
+session_regenerate_id();
+if(!isset($_SESSION['user']))      // if there is no valid session
+{
+    header("Location: ../login.html");
+}
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
@@ -15,9 +20,7 @@ $wal = $_GET["noti"];
 }
 
 if ($conn->query($sql) === TRUE) {
-    echo "command send successfully";
 } else {
-    echo "Error updating record: " . $conn->error;
 }
 
 {
@@ -25,9 +28,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 if ($conn->query($sql) === TRUE) {
-    echo "command send successfully";
 } else {
-    echo "Error updating record: " . $conn->error;
 }
 
 {
@@ -35,9 +36,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 if ($conn->query($sql) === TRUE) {
-    echo "command send successfully";
 } else {
-    echo "Error updating record: " . $conn->error;
 }
 if ($command === "con"){
 $sql = "truncate table getContactList";   

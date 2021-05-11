@@ -1,22 +1,12 @@
 body {
-  background: #000;
   height: 100vh;
   overflow: hidden;
   display: flex;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   justify-content: center;
   align-items: center;
   -webkit-perspective: 500px;
           perspective: 500px;
-}
-
-th {
-    color: #ff0000;
-}
-
-.tr {
-    color: #ff0000;
-    align-items: center;
 }
 
 .triangle {
