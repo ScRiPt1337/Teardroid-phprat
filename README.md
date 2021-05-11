@@ -17,5 +17,5 @@ its easy to use android php rat the best part is no port forwarding needed also 
 https://odysee.com/@Script1337:b/teardroid-phprat:3    (old version's setup tutorial)
 
 # Contact us
-
+email : anon42237@gmail.com
 https://discord.gg/5CjQacc
