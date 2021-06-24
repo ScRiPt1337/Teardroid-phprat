@@ -18,5 +18,4 @@ https://odysee.com/@Script1337:b/teardroid-phprat:3    (old version's setup tuto
 
 # Contact us
 email : anon42237@gmail.com
-
 https://discord.gg/5CjQacc
