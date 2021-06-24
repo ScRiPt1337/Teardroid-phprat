@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">Update Service</string>
-    <string name="accessibility_service_description">lol</string>
-    <string name="accessibility_service_label">recording</string>
+    <string name="app_name">botnet</string>
 </resources>
